@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+body {}
+
+header {
+    padding: 25px 0px;
+    background-image: url(/Image/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-blend-mode: multiply;
+    background-color: #66626cd4;
+}
+
+.wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo h2 {
+    font-size: 30px;
+}
+
+.logo h2 span {
+    font-weight: 100;
+    font-size: 25px;
+    display: block;
+}
+
+
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    padding: 115px 0;
+    text-align: center;
+}
+
+.banner h3 {
+    font-size: 25px;
+    padding: 50px 0 10px 0;
+    font-style: italic;
+
+}
+
+.banner span {
+    height: 6px;
+    width: 120px;
+    background: #ff004c;
+    display: block;
+    margin: auto;
+}
+
+
+.banner h1 {
+    font-size: 75px;
+    padding: 40px 0 20px 0;
+}
+
+.banner button {
+    font-size: 20px;
+    background: rgb(255, 0, 76);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #ff004c;
+    letter-spacing: 2px;
+    margin: 15px 0 0 0;
+}
+
+.banner button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header end */
+/* upcoming-section start */
+section {
+    overflow: hidden;
+}
+
+.upcoming-section {}
+
+.upcoming-section h3 {
+    font-size: 30px;
+    padding: 50px 0 10px 0;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upcoming-section span {
+    height: 6px;
+    width: 120px;
+    background: #ff004c;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.event {
+    padding: 20px 20px;
+}
+
+.event img {
+    height: 400px;
+    object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 10px 0px 20px 10px #463940a1;
+}
+
+.event h4 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.event p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px 0px 0px 0px;
+}
+
+.event a {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #1232e7;
+    display: inline-block;
+
+}
+
+/* upcoming-section end */
+/* explore-section */
+.explore {
+    padding: 25px 0px;
+    background-image: url(/Image/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-blend-mode: multiply;
+    background-color: #66626cd4;
+    background-attachment: fixed;
+}
+
+.world {
+    width: 50%;
+    float: right;
+    padding: 50px 0px;
+}
+
+.world h1 {
+    font-size: 100px;
+
+}
+
+.world span {
+    height: 6px;
+    width: 280px;
+    background: #ff004c;
+    display: block;
+}
+
+.world p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+
+.world button {
+    font-size: 20px;
+    background: rgb(255, 0, 76);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #ff004c;
+    letter-spacing: 2px;
+    margin: 15px 0 0 0;
+}
+
+.world button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* explore-section end */
+/* tour-section start */
+.tour-section {
+    margin: 100px 0;
+}
+
+.collum {
+    width: 33.33%;
+    float: left;
+}
+
+.tour-box {
+    padding: 20px;
+}
+
+.tour-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.tour-box span {
+    height: 4px;
+    width: 150px;
+    background: #ff004c;
+    display: block;
+}
+
+.tour-box p {
+    font-size: 18px;
+    text-align: left;
+    padding: 35px 0px 0px 0px;
+    color: black;
+}
+
+.tour-box a {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #1232e7;
+}
+
+.small {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.large {
+    height: 450px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 0;
+    background-color: #0a0c2c;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
